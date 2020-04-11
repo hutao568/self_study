@@ -1,0 +1,2 @@
+/Users/taohu/project/self_study/tutorial_02/cmake/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/taohu/project/self_study/tutorial_02/cmake/cmake-build-debug/CMakeFiles/edit_cache.dir
