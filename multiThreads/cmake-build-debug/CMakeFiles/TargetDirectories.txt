@@ -1,3 +1,0 @@
-/Users/taohu/project/self_study/multiThreads/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/taohu/project/self_study/multiThreads/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/taohu/project/self_study/multiThreads/cmake-build-debug/CMakeFiles/multiThreads.dir
