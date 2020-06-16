@@ -44,15 +44,15 @@ int main() {
 
   for(int threadIndex=0;threadIndex<N;threadIndex++){
     //此处先处理，N个线程加载N张图像
-    threadObjs[threadIndex]=std::thread(thread_function,imgLists[threadIndex],MatArray,threadIndex);
+    threadObjs[threadIndex]=std::thread(thread_function,imgLists[threadIndex],ref(MatArray),threadIndex);
   }
 
   for(int threadIndex=0;threadIndex<N;threadIndex++) {
     threadObjs[threadIndex].join();
   }
 
-//  for(int threadIndex=0;threadIndex<N;threadIndex++) {
-//
-//  }
+  for(int threadIndex=0;threadIndex<N;threadIndex++) {
+    cv::imwrite("img/"+std::to_string(threadIndex)+".png",MatArray[threadIndex]);
+  }
   return 0;
 }
